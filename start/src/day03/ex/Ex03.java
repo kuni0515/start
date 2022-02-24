@@ -20,12 +20,13 @@ import java.util.Scanner;
  */
 public class Ex03 {
 	public static void main(String[] args) {
-		int total = 84232;
 		
+		int total = 84232;
 		int tmp = total;
 		
 		int oman = tmp / 50000;
 		tmp = tmp % 50000;
+		System.out.println("tmp==========="+tmp);
 		int man = tmp / 10000;
 		tmp = tmp %10000;
 		int ochun = tmp / 5000;
