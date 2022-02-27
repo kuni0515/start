@@ -26,9 +26,12 @@ public class Ex03 {
 		
 		int oman = tmp / 50000;
 		tmp = tmp % 50000;
+		
 		System.out.println("tmp==========="+tmp);
+		
 		int man = tmp / 10000;
 		tmp = tmp %10000;
+		
 		int ochun = tmp / 5000;
 		tmp = tmp %5000;
 		int chun = tmp / 1000;

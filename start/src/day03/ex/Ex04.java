@@ -19,16 +19,15 @@ package day03.ex;
  		
  		계산식을 만들고
  		출력하면 될것 같다...
- */
+
 public class Ex04 {
 	public static void main(String[] args) {
 		
 		// 변수선언을 우선적으로 하자
-		double total = 365.2426;
-		//double tmp = total;
-		double exday = 0.2426;
+		float total = 365.2426;
+		float tmp = 0.2426;
 		
-		double day = total - exday;
+		float day = total - tmp;
 		
 		float test1 = (float)total % 365;
 		//System.out.println("test1 : " + test1);
@@ -47,5 +46,40 @@ public class Ex04 {
 		System.out.println("분 : " + min);
 		System.out.println("초 : " + sec );
 		System.out.println("입니다.");
+	}
+}
+ */
+public class Ex04 {
+	public static void main(String[] args) {
+// 할일
+// 데이터 변수에 기억
+double total = 365.2426;
+// 누적계산될 변수 만들고
+double tmp = total;
+// 날수 구하고 --> 누적 변수에 계산해서 업데이트
+int day = (int) tmp;
+tmp = tmp - day;
+// tmp -= day;
+// 0.2426 초로 변환한다.
+// 1 * 24 ==> 하루의 시간
+// 0.5 * 24 ==> 하루의 절반 시간
+// 0.1 * 24 ==> 0.1일의 시간
+int tsec = (int)(0.2426 * 24 * 60 * 60);
+// 시간 구하고 --> 누적 변수에 계산해서 업데이트
+int hour = tsec / 60 / 60 ;
+tsec = tsec % (60 * 60);
+// tsec %= 3600;
+// 분 구하고 --> 누적 변수에 계산해서 업데이트
+int min = tsec / 60;
+tsec = tsec % 60;
+// 초 구하고
+int sec = tsec;
+// 출력하고
+System.out.println("1년은 " + total + "일이고");
+System.out.println("이것은 " + day + "일");
+System.out.println("" + hour + "시간");
+System.out.println("" + min + "분");
+System.out.println("" + sec + "초 이다");
+
 	}
 }
