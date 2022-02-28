@@ -20,7 +20,7 @@ public class Ex03 {
 		// 랜덤 숫자 표시
 		System.out.println("랜덤숫자 " + no);
 		// 나온 수를 15로 나눈 목 수계산
-		int page = ((no % 15) > 0) ? no / 15+1 : no / 15 ;
+		int page = ((no % 15) > 0) ? (no / 15+1) : (no / 15);
 		System.out.println("필요한 페이지 수는 " + page + " 페이지가 필요합니다.");
 	}
 }

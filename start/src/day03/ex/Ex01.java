@@ -11,7 +11,7 @@ package day03.ex;
 		출력형식]
 			가로 : XXXXX
 			세로 : XXXXX
-			사각형 넓이 : XXXXXX
+			사각형 넓이 : XXXXXXm
 			삼각형 넓이 : XXXX.X
 		
 	참고]
