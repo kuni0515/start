@@ -1,4 +1,4 @@
-package myEx;
+package day05.myEx;
 
 public class My03 {
 

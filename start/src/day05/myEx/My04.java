@@ -1,4 +1,4 @@
-package myEx;
+package day05.myEx;
 /*
  	하나의 정수를 입력받아 2단부터 입력받은 정수의 단까지 출력하시오
  */

@@ -1,4 +1,4 @@
-package myEx;
+package day05.myEx;
 
 /*
  	게임등수에 따라 1등은 tv / 2등은 설거지 if~else 를 사용해서 코드를 완성하세요

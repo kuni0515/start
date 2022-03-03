@@ -1,4 +1,4 @@
-package myEx;
+package day05.myEx;
 /*
  	money값이 10000보다 작기 때문에 " 당신은 흙수저입니다." 문구 출력
  */

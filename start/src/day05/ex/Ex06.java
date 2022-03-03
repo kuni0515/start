@@ -1,7 +1,5 @@
 package day05.ex;
 
-import java.util.Scanner;
-
 /*
 	문제 6 ]
 		랜덤하게 정수를 컴퓨터가 만들어 내면
@@ -21,28 +19,7 @@ import java.util.Scanner;
 public class Ex06 {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
 		
-		int num = (int)(Math.random() * 100 + 1);
-		
-		for(int i=0; i<5; i++) {
-			
-			System.out.print("숫자입력 : ");
-			int(no==num) {
-				System.out.println("입력한 수 " + no + "맞습니다.");
-				break;
-			} else if(i != 4 && no > num) {
-				System.out.println("큰 수를 입력했습니다.");
-				continue;
-			} else if(i != 4 && no < num) {
-				System.out.println("작은 수를 입력했습니다.");
-				continue;
-			}
-			
-			if(i==4) {
-				System.out.println("#### 게임에서 졌습니다.");
-			}
-		}
 	}
 
 }
